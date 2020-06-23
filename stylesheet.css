@@ -35,7 +35,7 @@ a {
 
 .header-kiri ul {
       list-style-type:none;
-      
+
       margin-top:15px;
 
   }
@@ -43,7 +43,7 @@ a {
 .header-kiri ul li {
       display: inline-block;
 
-} 
+}
 
 .header-kiri ul li i{
       border:2px solid transparent;
@@ -124,11 +124,11 @@ a {
   display: inline-block;
   height: 30px;
   line-height: 37px;
-  transition: color 0.2s linear 0s, 
-  font-size 0.2s linear 0s, 
-  border-color 0.2s linear 0.2s, 
-  height 0.2s linear 0s, 
-  width 0.2s linear 0s, 
+  transition: color 0.2s linear 0s,
+  font-size 0.2s linear 0s,
+  border-color 0.2s linear 0.2s,
+  height 0.2s linear 0s,
+  width 0.2s linear 0s,
   line-height 0.2s linear 0s;
 }
 
@@ -161,11 +161,11 @@ a {
   width: 66px;
   height: 66px;
   line-height: 60px;
-  transition: color 0.2s linear 0s, 
-  font-size 0.2s linear 0s, 
-  border-color 0.2s linear 0s, 
-  height 0.2s linear 0s, 
-  width 0.2s linear 0s, 
+  transition: color 0.2s linear 0s,
+  font-size 0.2s linear 0s,
+  border-color 0.2s linear 0s,
+  height 0.2s linear 0s,
+  width 0.2s linear 0s,
   line-height 0.2s linear 0s;
 }
 
@@ -214,11 +214,11 @@ footer a i:before {
   display: inline-block;
   height: 30px;
   line-height: 37px;
-  transition: color 0.2s linear 0s, 
-  font-size 0.2s linear 0s, 
-  border-color 0.2s linear 0.2s, 
-  height 0.2s linear 0s, 
-  width 0.2s linear 0s, 
+  transition: color 0.2s linear 0s,
+  font-size 0.2s linear 0s,
+  border-color 0.2s linear 0.2s,
+  height 0.2s linear 0s,
+  width 0.2s linear 0s,
   line-height 0.2s linear 0s;
 }
 
@@ -251,15 +251,15 @@ footer ul li:hover i {
   width: 66px;
   height: 66px;
   line-height: 60px;
-  transition: color 0.2s linear 0s, 
-  font-size 0.2s linear 0s, 
-  border-color 0.2s linear 0s, 
-  height 0.2s linear 0s, 
-  width 0.2s linear 0s, 
+  transition: color 0.2s linear 0s,
+  font-size 0.2s linear 0s,
+  border-color 0.2s linear 0s,
+  height 0.2s linear 0s,
+  width 0.2s linear 0s,
   line-height 0.2s linear 0s;
 }
 footer p {  display:inline-block;
-             
+
              border:1px solid transparent;
              border-radius:5px;
              background-color:#FFFFF0;
@@ -291,7 +291,7 @@ footer p {  display:inline-block;
    padding:0 15px;
    margin:0 auto;
  }
- 
+
 .title-top {
   border-bottom:5px double rgba(255, 255, 255, 0.5);
   padding-bottom:30px;
@@ -300,32 +300,90 @@ footer p {  display:inline-block;
   font-size:40px;
 }
 
-.lesson-wrapper { height: auto;
-                  padding-left: 5%;
-                  padding-right: 5%;
-                            padding-bottom: 80px;
-                            background-color: #f7f7f7;
-                            opacity: 1;  }
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 30px;
+}
+.btn:hover {
+  opacity: 1;
+}
+.travel {
+  background-color: rgb(177, 52, 17);
+  margin-top:15px;
+}
+.container {
+  width:80%
+  padding:0 15px;
+  margin:0 auto;
+}
+.lesson-wrapper {
 
-.heading {padding-top:60px;padding-bottom:30px;color:#5f5d60}
+   background-color: #f7f7f7;
+   opacity: 1;
+   text-align:center;
+   display:flex;
+   flex-wrap:wrap;
+}
 
-.heading h2{font-weight:normal; margin:20px;}
-/*.lessons{float:center;width:100%;display:inline-block;opacity: 0.85;}*/
-.lesson {display: inline-block;}
-/* Tambahkan CSS untuk lesson-icon */
-.lesson-icon{
- 
-  width:100%;
-  align-items: center;
-  position:relative;
-  display:block; 
-  padding-right:15px;
-  padding-left:15px;}
+.heading {
+  padding-top:60px;padding-bottom:30px;color:#5f5d60}
 
-*{box-sizing:border-box;}
-.lesson-icon img {display:inline-block;width:100%;}
-/* Tambahkan CSS untuk tag <p> didalam lesson-icon */
-.lesson-icon p {position:absolute;margin:0 auto;width:100%;color:black;text-align: center;background-color: white;}
-.clear {clear: left;}
+.heading h2{font-weight:normal}
 
-.menu-icon{color:white;float:right;display:none;}
+.lesson-wrapper .lessons {
+	dispalay: flex;
+	flex-direction:row;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.lesson-content img{
+    display: none;
+}
+
+.lesson-wrapper .lessons {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.lesson-group {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.lesson-group img {
+	flex: auto;
+	width:20%;
+	margin:0 10px 0 10px;
+}
+
+.lesson-content {
+
+  flex: auto;
+	width: 10%;
+	margin:0 10px ;
+
+
+
+}
+
+.lesson-one p{
+    text-align: center;
+    font-weight: bold;
+    border:1px solid rgb(189, 99, 71);
+    color: rgb(189, 99, 71);
+    margin-top: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+	  font-size: 30px;
+    transition: all 0.2s;
+}
+
+.lesson-one p:hover{
+		cursor:pointer;
+    background-color: rgb(189, 99, 71);
+    color: white;
+}
