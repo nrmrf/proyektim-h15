@@ -50,6 +50,8 @@ a {
 }
 .header-kiri ul li p{ color:white;}
 
+
+
 .header-kiri ul li a:hover{
 	background-color:white;
 	color:black;
@@ -63,6 +65,7 @@ a {
 .menu {
 
   margin-top: 5px;
+  margin-right: 40px;
   text-align:right;
 }
 
@@ -72,6 +75,7 @@ a {
 }
 
 .menu ul li {
+  margin-right:;
   float: left;
   width: 50px;
   height: 40px;
@@ -152,8 +156,9 @@ a {
 }
 
 
-footer {margin:0 auto;
-		display: inline-block;}
+footer {
+          margin:0 auto;
+		      display: inline-block;}
 footer ul {
   list-style-type: none;
   display: inline-block;
@@ -240,12 +245,39 @@ footer ul li:hover i {
   line-height 0.2s linear 0s;
 }
 footer p {  display:inline-block;
-			text-align:center;
-			border:2px solid transparent;
-			border-radius:10px;
-			background-color:#FFFFF0;
-			background-color-opacity:0.05;
-            letter-spacing:5px;}
+			       
+			       border:1px solid transparent;
+			       border-radius:5px;
+			       background-color:#FFFFF0;
+			       background-color-opacity:0.05;
+            letter-spacing:3px;}
 .s1 {color:red;}
 .s2 {color:blue;}
 .s3 {color:#DAA520;}
+
+
+.top-wrapper {display:inline-block;
+              color:white;
+              text-align:center;
+              background-blend-mode:all;
+              border:2px solid transparent;}
+
+
+.lesson-wrapper { height: 500px;
+                  padding-bottom: 80px;
+                  background-color: #f7f7f7;
+                  opacity: 1;  }
+                  .heading {padding-top:60px;padding-bottom:30px;color:#5f5d60}
+
+.heading h2{font-weight:normal}
+.lesson{float:left;width:25%}
+
+/* Tambahkan CSS untuk lesson-icon */
+.lesson-icon{position:relative}
+
+/* Tambahkan CSS untuk tag <p> didalam lesson-icon */
+.lesson-icon p {position:absolute;top:90px;width:100%;color:white;opacity: 0.6;}
+
+/* Tambahkan CSS untuk txt-contents */
+.txt-contents {width:80%;display:inline-block;margin:0 auto;font-size:15px;color:#b3aeb5}
+
