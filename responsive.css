@@ -22,11 +22,11 @@
 @media (max-width:670px) {
   /* Ubah width milik lesson ke 100% */
   .lesson{width:100%}
-   .header-kiri {width:75%;font-size:12px;}
+   .header-kiri {width:100%;font-size:8px;padding:0 0;}
   /* Ubah text-align property milik <footer> */
   footer{text-align:center;}
    /* Tambahkan CSS untuk tag <h1> didalam top-wrapper */
-  .top-wrapper h1{font-size:24px;line-height:36px;}
+  .top-wrapper h1{font-size:24px;line-height:36px; color:black;}
   
   /* Tambahkan CSS untuk tag <p> didalam top-wrapper */
   .top-wrapper p{font-size:14px;line-height:20px;}
