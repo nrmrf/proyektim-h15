@@ -40,6 +40,12 @@ a {
 
 }	
 
+.header-kiri ul li i{
+			background-color:white;
+			padding:20px 20px;
+
+}
+
 .header-kiri ul li a {
 				text-decoration:none;
 				background-color:#800000;
@@ -138,7 +144,7 @@ a {
 
 .menu ul li:hover i {
   color: #ffa801;
-  font-size: 50px;
+  font-size: 43px;
 }
 
 .menu ul li:hover i:before {
@@ -213,7 +219,7 @@ footer a .link-text {
   bottom: 13px;
   right: 10px;
   color: black;
-  font-size: 30px;
+  font-size: 14px;
   text-transform: uppercase;
   transition: all 0.2s linear 0s;
 }
