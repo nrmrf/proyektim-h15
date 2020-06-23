@@ -16,7 +16,8 @@ header {
   background-position:center;
   width:100%;
   position:fixed;
-  top:0;
+  top:0px;
+  left:0px;
   z-index:10;
   }
 a {
