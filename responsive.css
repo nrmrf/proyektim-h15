@@ -9,7 +9,7 @@
 
 @media (max-width:1000px) 
 
-{.lesson{width:50%;margin-bottom:50px;}
+{.lesson{width:100%;margin-bottom:50px;}
   /* Tambahkan CSS untuk lesson */
   .menu-icon {display:none;}
    /* Tambahkan CSS untuk tag <h1> didalam top-wrapper */
