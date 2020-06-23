@@ -23,15 +23,15 @@
   /* Ubah width milik lesson ke 100% */
   .lesson{width:100%}
   .header-kanan{display:none;}
-  header {font-size:10px;margin:0 auto;padding:0 0;}
+
 
   /* Ubah text-align property milik <footer> */
   footer{text-align:center;}
    /* Tambahkan CSS untuk tag <h1> didalam top-wrapper */
-  .top-wrapper h1{font-size:24px;line-height:36px;}
+  .top-wrapper h1{font-size:24px;line-height:36px;text-align:center;}
   
   /* Tambahkan CSS untuk tag <p> didalam top-wrapper */
-  .top-wrapper p{font-size:14px;line-height:20px;}
+  .top-wrapper p{font-size:14px;line-height:20px;text-align:center;}
   
   
   /* Tambahkan CSS untuk menu-icon */
