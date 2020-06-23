@@ -10,11 +10,11 @@ body {
    background-color:rgba(255,255,255,0.8);
 }
 header {
-	background-image:url("https://cdn.pixabay.com/photo/2012/08/27/14/19/evening-55067_1280.png");
-	background-size:cover;
-	background-opacity:0.6;
-	background-position:center;
-	}
+  background-image:url("https://cdn.pixabay.com/photo/2012/08/27/14/19/evening-55067_1280.png");
+  background-size:cover;
+  background-opacity:0.6;
+  background-position:center;
+  }
 a {
   text-decoration: none;
 }
@@ -25,20 +25,20 @@ a {
   clear: both;
 }
 .header-kiri {
-	float:left;
+  float:left;
 }
 
 .header-kiri ul {
-			list-style-type:none;
-			
-			margin-top:15px;
+      list-style-type:none;
+      
+      margin-top:15px;
 
-	}
+  }
 
 .header-kiri ul li {
-			display: inline-block;
+      display: inline-block;
 
-}	
+} 
 
 .header-kiri ul li i{
       border:2px solid transparent;
@@ -50,26 +50,26 @@ a {
 }
 
 .header-kiri ul li a {
-				text-decoration:none;
-				background-color:#800000;
-				color:white;
-				padding:5px 20px;
-				border:1px solid transparent;
-				border-radius:100px;
+        text-decoration:none;
+        background-color:#800000;
+        color:white;
+        padding:5px 20px;
+        border:1px solid transparent;
+        border-radius:100px;
 }
 .header-kiri ul li p{ color:white;}
 
 
 
 .header-kiri ul li a:hover{
-	background-color:white;
-	color:black;
+  background-color:white;
+  color:black;
 }
 
 .header-kiri ul li a:active {
-		background-color:white;
-		color:black;
-		transition: background-color 0.9s linear 0s;
+    background-color:white;
+    color:black;
+    transition: background-color 0.9s linear 0s;
 }
 .menu {
 
@@ -167,7 +167,7 @@ a {
 
 footer {
           margin:0 auto;
-		      display: inline-block;}
+          display: inline-block;}
 footer ul {
   list-style-type: none;
   display: inline-block;
@@ -254,11 +254,11 @@ footer ul li:hover i {
   line-height 0.2s linear 0s;
 }
 footer p {  display:inline-block;
-			       
-			       border:1px solid transparent;
-			       border-radius:5px;
-			       background-color:#FFFFF0;
-			       background-color-opacity:0.05;
+             
+             border:1px solid transparent;
+             border-radius:5px;
+             background-color:#FFFFF0;
+             background-color-opacity:0.05;
             letter-spacing:3px;}
 .s1 {color:red;}
 .s2 {color:blue;}
