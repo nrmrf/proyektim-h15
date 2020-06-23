@@ -8,7 +8,7 @@
 
 {.lesson{width:50%;margin-bottom:50px;}
   /* Tambahkan CSS untuk lesson */
-  
+.menu{display:none;}
    /* Tambahkan CSS untuk tag <h1> didalam top-wrapper */
   .top-wrapper h1{font-size:32px;}
 
@@ -22,7 +22,7 @@
 @media (max-width:670px) {
   /* Ubah width milik lesson ke 100% */
   .lesson{width:100%}
-  .header-kanan{display:none;}
+  .menu{width:50%;display:none;}
 
 
   /* Ubah text-align property milik <footer> */
