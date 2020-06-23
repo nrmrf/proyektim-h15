@@ -21,10 +21,10 @@
 /* Tambahkan breakpoint max-width: 670px */
 @media (max-width:670px) {
   /* Ubah width milik lesson ke 100% */
-  .lesson{width:100%}
-  header {width:50%}
+  .lesson{width:100%;}
+  header {width:50%;height:50%;}
   .header-kiri {float:left;}
-  .header-kiri ul a p{font-size:8px;padding:0 0;color:black;}
+  .header-kiri li a p{font-size:8px;padding:0 0;color:black;}
   /* Ubah text-align property milik <footer> */
   footer{text-align:center;}
    /* Tambahkan CSS untuk tag <h1> didalam top-wrapper */
