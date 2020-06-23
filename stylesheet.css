@@ -1,22 +1,21 @@
 *{
-   font-family:"slab serif";
+  font-family:"slab serif";
 }
 
 body {
-   background-image: url("https://wisatabaru.com/wp-content/uploads/2018/03/pulau-belitung.jpg");
+  background-image: url("https://wisatabaru.com/wp-content/uploads/2018/03/pulau-belitung.jpg");
    background-repeat: no-repeat;
    background-size:cover;
    background-opacity:0.6;
    background-color:rgba(255,255,255,0.8);
 }
-
 header {
   background-image:url("https://cdn.pixabay.com/photo/2012/08/27/14/19/evening-55067_1280.png");
   background-size:cover;
   background-opacity:0.6;
   background-position:center;
-}
-
+  width:100%;
+  }
 a {
   text-decoration: none;
 }
@@ -31,14 +30,16 @@ a {
 }
 
 .header-kiri ul {
-   list-style-type:none;
-   margin-top:15px;
-}
+      list-style-type:none;
+      
+      margin-top:15px;
+
+  }
 
 .header-kiri ul li {
       display: inline-block;
 
-}
+} 
 
 .header-kiri ul li i{
       border:2px solid transparent;
@@ -57,9 +58,9 @@ a {
         border:1px solid transparent;
         border-radius:100px;
 }
-.header-kiri ul li p{
-  color:white;
-}
+.header-kiri ul li p{ color:white;}
+
+
 
 .header-kiri ul li a:hover{
   background-color:white;
@@ -71,8 +72,8 @@ a {
     color:black;
     transition: background-color 0.9s linear 0s;
 }
-
 .menu {
+
   margin-top: 5px;
   margin-right: 40px;
   text-align:right;
@@ -92,7 +93,6 @@ a {
   background-color:#800000;
   transition: background-color 0.2s linear 0s;
 }
-
 .menu ul li:first-child {border-radius: 25px 0 0 25px;}
 .menu ul li:last-child {border-radius: 0 25px 25px 0;}
 
@@ -120,11 +120,11 @@ a {
   display: inline-block;
   height: 30px;
   line-height: 37px;
-  transition: color 0.2s linear 0s,
-  font-size 0.2s linear 0s,
-  border-color 0.2s linear 0.2s,
-  height 0.2s linear 0s,
-  width 0.2s linear 0s,
+  transition: color 0.2s linear 0s, 
+  font-size 0.2s linear 0s, 
+  border-color 0.2s linear 0.2s, 
+  height 0.2s linear 0s, 
+  width 0.2s linear 0s, 
   line-height 0.2s linear 0s;
 }
 
@@ -157,19 +157,18 @@ a {
   width: 66px;
   height: 66px;
   line-height: 60px;
-  transition: color 0.2s linear 0s,
-  font-size 0.2s linear 0s,
-  border-color 0.2s linear 0s,
-  height 0.2s linear 0s,
-  width 0.2s linear 0s,
+  transition: color 0.2s linear 0s, 
+  font-size 0.2s linear 0s, 
+  border-color 0.2s linear 0s, 
+  height 0.2s linear 0s, 
+  width 0.2s linear 0s, 
   line-height 0.2s linear 0s;
 }
 
 
 footer {
-   margin:0 auto;
-   display: inline-block;}
-
+          margin:0 auto;
+          display: inline-block;}
 footer ul {
   list-style-type: none;
   display: inline-block;
@@ -184,7 +183,6 @@ footer ul li {
   transition: background-color 0.2s linear 0s;
   display:inline-block;
 }
-
 footer ul li:first-child {border-radius: 25px 0 0 25px;}
 footer ul li:last-child {border-radius: 0 25px 25px 0;}
 
@@ -212,11 +210,11 @@ footer a i:before {
   display: inline-block;
   height: 30px;
   line-height: 37px;
-  transition: color 0.2s linear 0s,
-  font-size 0.2s linear 0s,
-  border-color 0.2s linear 0.2s,
-  height 0.2s linear 0s,
-  width 0.2s linear 0s,
+  transition: color 0.2s linear 0s, 
+  font-size 0.2s linear 0s, 
+  border-color 0.2s linear 0.2s, 
+  height 0.2s linear 0s, 
+  width 0.2s linear 0s, 
   line-height 0.2s linear 0s;
 }
 
@@ -249,39 +247,35 @@ footer ul li:hover i {
   width: 66px;
   height: 66px;
   line-height: 60px;
-  transition: color 0.2s linear 0s,
-  font-size 0.2s linear 0s,
-  border-color 0.2s linear 0s,
-  height 0.2s linear 0s,
-  width 0.2s linear 0s,
+  transition: color 0.2s linear 0s, 
+  font-size 0.2s linear 0s, 
+  border-color 0.2s linear 0s, 
+  height 0.2s linear 0s, 
+  width 0.2s linear 0s, 
   line-height 0.2s linear 0s;
 }
-footer p {
-   display:inline-block;
-   border:1px solid transparent;
-   border-radius:5px;
-   background-color:#FFFFF0;
-   background-color-opacity:0.05;
-   letter-spacing:3px;}
-
+footer p {  display:inline-block;
+             
+             border:1px solid transparent;
+             border-radius:5px;
+             background-color:#FFFFF0;
+             background-color-opacity:0.05;
+            letter-spacing:3px;}
 .s1 {color:red;}
 .s2 {color:blue;}
 .s3 {color:#DAA520;}
 
 
-.top-wrapper {
-
-   display:inline-block;
-    color:white;
-   text-align:center;
-
-   border:2px solid transparent;
-   background-color:rgba(255, 255, 255, 0.1);
+.top-wrapper {display:inline-block;
+              color:white;
+              text-align:center;
+              width:100%;
+              border:2px solid transparent;
+            background-color:rgba(255, 255, 255, 0.1);
    color:rgba(255, 255, 255, 0.8);
    padding-bottom:40px;
-   border-radius: 10px;
+   border-radius: 10px;}
 
- }
 .top-wrapper i {display:inline-block;font-size:30px;}
 .container {
   max-width:1440px;
@@ -293,6 +287,7 @@ footer p {
    padding:0 15px;
    margin:0 auto;
  }
+ 
 .title-top {
   border-bottom:5px double rgba(255, 255, 255, 0.5);
   padding-bottom:30px;
@@ -301,13 +296,9 @@ footer p {
   font-size:40px;
 }
 
-/*.lesson-wrapper {
-  height: 500px;
-   padding-bottom: 80px;
-   background-color: #f7f7f7;
-   opacity: 1;
-}*/
-.lesson-wrapper { height: 100%;
+.lesson-wrapper { height: auto;
+                  padding-left: 5%;
+                  padding-right: 5%;
                             padding-bottom: 80px;
                             background-color: #f7f7f7;
                             opacity: 1;  }
@@ -315,14 +306,22 @@ footer p {
 .heading {padding-top:60px;padding-bottom:30px;color:#5f5d60}
 
 .heading h2{font-weight:normal; margin:20px;}
-.lessons{float:center;width:100%;display:inline-block;opacity: 0.85;}
+/*.lessons{float:center;width:100%;display:inline-block;opacity: 0.85;}*/
 .lesson {display: inline-block;}
 /* Tambahkan CSS untuk lesson-icon */
-.lesson-icon{position:relative;display:inline-block; margin:20px;float:center;text-align: center}
+.lesson-icon{
+ 
+  width:100%;
+  align-items: center;
+  position:relative;
+  display:block; 
+  padding-right:15px;
+  padding-left:15px;}
 
+*{box-sizing:border-box;}
+.lesson-icon img {display:inline-block;width:25%;}
 /* Tambahkan CSS untuk tag <p> didalam lesson-icon */
-.lesson-icon p {position:absolute;margin:20px;width:100%;color:black;text-align: center;background-color: white;}
+.lesson-icon p {position:absolute;margin: auto;width:25%;color:black;text-align: center;background-color: white;}
+.clear {clear: left;}
 
-/* Tambahkan CSS untuk txt-contents */
-.txt-contents {width:80%;display:inline-block;margin:0 auto;font-size:15px;color:#b3aeb5;text-align: center;}
-
+.menu-icon{color:white;float:right;display:none;}
