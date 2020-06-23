@@ -16,12 +16,14 @@
  .lesson-wrapper .lessons {
     display: flex;
     flex-wrap: wrap;
+font-size:12px;
   }
 
 
   .lesson-content {
     flex: auto;
      width: 15%;
+font-size:12px;
   }
   .top-wrapper h1{font-size:32px;}
 
