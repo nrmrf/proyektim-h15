@@ -1,20 +1,22 @@
 *{
-  font-family:"slab serif";
+   font-family:"slab serif";
 }
 
 body {
-  background-image: url("https://wisatabaru.com/wp-content/uploads/2018/03/pulau-belitung.jpg");
+   background-image: url("https://wisatabaru.com/wp-content/uploads/2018/03/pulau-belitung.jpg");
    background-repeat: no-repeat;
    background-size:cover;
    background-opacity:0.6;
    background-color:rgba(255,255,255,0.8);
 }
+
 header {
   background-image:url("https://cdn.pixabay.com/photo/2012/08/27/14/19/evening-55067_1280.png");
   background-size:cover;
   background-opacity:0.6;
   background-position:center;
-  }
+}
+
 a {
   text-decoration: none;
 }
@@ -29,11 +31,9 @@ a {
 }
 
 .header-kiri ul {
-      list-style-type:none;
-      
-      margin-top:15px;
-
-  }
+   list-style-type:none;
+   margin-top:15px;
+}
 
 .header-kiri ul li {
       display: inline-block;
@@ -57,9 +57,9 @@ a {
         border:1px solid transparent;
         border-radius:100px;
 }
-.header-kiri ul li p{ color:white;}
-
-
+.header-kiri ul li p{ 
+  color:white;
+}
 
 .header-kiri ul li a:hover{
   background-color:white;
@@ -71,8 +71,8 @@ a {
     color:black;
     transition: background-color 0.9s linear 0s;
 }
-.menu {
 
+.menu {
   margin-top: 5px;
   margin-right: 40px;
   text-align:right;
@@ -92,6 +92,7 @@ a {
   background-color:#800000;
   transition: background-color 0.2s linear 0s;
 }
+
 .menu ul li:first-child {border-radius: 25px 0 0 25px;}
 .menu ul li:last-child {border-radius: 0 25px 25px 0;}
 
@@ -166,8 +167,9 @@ a {
 
 
 footer {
-          margin:0 auto;
-          display: inline-block;}
+   margin:0 auto;
+   display: inline-block;}
+
 footer ul {
   list-style-type: none;
   display: inline-block;
@@ -182,6 +184,7 @@ footer ul li {
   transition: background-color 0.2s linear 0s;
   display:inline-block;
 }
+
 footer ul li:first-child {border-radius: 25px 0 0 25px;}
 footer ul li:last-child {border-radius: 0 25px 25px 0;}
 
@@ -253,40 +256,55 @@ footer ul li:hover i {
   width 0.2s linear 0s, 
   line-height 0.2s linear 0s;
 }
-footer p {  display:inline-block;
-             
-             border:1px solid transparent;
-             border-radius:5px;
-             background-color:#FFFFF0;
-             background-color-opacity:0.05;
-            letter-spacing:3px;}
+footer p {  
+   display:inline-block;
+   border:1px solid transparent;
+   border-radius:5px;
+   background-color:#FFFFF0;
+   background-color-opacity:0.05;
+   letter-spacing:3px;}
+
 .s1 {color:red;}
 .s2 {color:blue;}
 .s3 {color:#DAA520;}
 
 
-.top-wrapper {display:inline-block;
-              color:white;
-              text-align:center;
-              background-blend-mode:all;
-              border:2px solid transparent;}
+.top-wrapper {
+   display:inline-block;
+   color:white;
+   text-align:center;
+   background-blend-mode:all;
+   border:2px solid transparent;}
 
 
-.lesson-wrapper { height: 500px;
-                  padding-bottom: 80px;
-                  background-color: #f7f7f7;
-                  opacity: 1;  }
-                  .heading {padding-top:60px;padding-bottom:30px;color:#5f5d60}
+.lesson-wrapper { 
+  height: 500px;
+   padding-bottom: 80px;
+   background-color: #f7f7f7;
+   opacity: 1;  
+}
+
+.heading {
+  padding-top:60px;padding-bottom:30px;color:#5f5d60}
 
 .heading h2{font-weight:normal}
 .lesson{float:left;width:25%}
 
 /* Tambahkan CSS untuk lesson-icon */
-.lesson-icon{position:relative}
+.lesson-icon{
+  position:relative;
+  padding: 10px;
+}
 
 /* Tambahkan CSS untuk tag <p> didalam lesson-icon */
-.lesson-icon p {position:absolute;top:90px;width:100%;color:white;opacity: 0.6;}
+.lesson-icon p {
+  position:absolute;top:90px;width:100%;color:white;opacity: 0.6;
+  padding: 10px;
+
+}
 
 /* Tambahkan CSS untuk txt-contents */
-.txt-contents {width:80%;display:inline-block;margin:0 auto;font-size:15px;color:#b3aeb5}
+.txt-contents {
+  width:80%;display:inline-block;margin:0 auto;font-size:15px;color:#b3aeb5
+}
 
