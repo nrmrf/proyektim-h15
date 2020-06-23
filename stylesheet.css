@@ -295,12 +295,16 @@ footer p {
   font-size:40px;
 }
 
-.lesson-wrapper {
+/*.lesson-wrapper {
   height: 500px;
    padding-bottom: 80px;
    background-color: #f7f7f7;
    opacity: 1;
-}
+}*/
+.lesson-wrapper { height: 100%;
+                            padding-bottom: 80px;
+                            background-color: #f7f7f7;
+                            opacity: 1;  }
 
 .heading {padding-top:60px;padding-bottom:30px;color:#5f5d60}
 
