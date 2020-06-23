@@ -23,6 +23,7 @@
   /* Ubah width milik lesson ke 100% */
   .lesson{width:100%}
   header {font-size:10px;margin:0 auto;padding:0 0;}
+  nav {display:none;}
   /* Ubah text-align property milik <footer> */
   footer{text-align:center;}
    /* Tambahkan CSS untuk tag <h1> didalam top-wrapper */
