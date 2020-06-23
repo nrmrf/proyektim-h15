@@ -23,11 +23,11 @@
   /* Ubah width milik lesson ke 100% */
   /*.menu {display:none;}*/
  
-  .lesson {width:100%}
+  .lesson {width:100%;}
   .lesson-icon img{width:100%;display:inline-block;}
-    .lesson-icon p{width:100%;display:inline-block;}
+  .lesson-icon p{width:100%;display:inline-block;}
   
-
+  header {text-align:center;}
 
   /* Ubah text-align property milik <footer> */
   footer{text-align:center;}
