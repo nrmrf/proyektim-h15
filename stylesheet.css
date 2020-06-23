@@ -283,6 +283,11 @@ footer p {
 
  }
 .top-wrapper i {display:inline-block;font-size:30px;}
+.container {
+  max-width:1170px;
+  width:100%;
+  display:inline-block;
+}
  .container-title {
    width:80%;
    padding:0 15px;
