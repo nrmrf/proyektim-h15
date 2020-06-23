@@ -38,9 +38,21 @@ font-size:12px;
   /* Ubah width milik lesson ke 100% */
   .menu {display:none;}
  .menu-icon {display:block;}
-  .lesson {width:100%;}
+  .lesson {width:auto;}
 
   
+ .lesson-wrapper .lessons {
+    display: flex;
+    flex-wrap: wrap;
+font-size:12px;
+  }
+
+
+  .lesson-content {
+    flex: auto;
+     width: 100%;
+font-size:12px;
+  }
  /* header {text-align:center;}*/
 
   /* Ubah text-align property milik <footer> */
