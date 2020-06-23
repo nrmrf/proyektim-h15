@@ -13,7 +13,16 @@
   .menu-icon {display:none;}
    /* Tambahkan CSS untuk tag <h1> didalam top-wrapper */
 
- 
+ .lesson-wrapper .lessons {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+  .lesson-content {
+    flex: auto;
+     width: 15%;
+  }
   .top-wrapper h1{font-size:32px;}
 
   /* Tambahkan CSS untuk tag <h2> didalam heading */
