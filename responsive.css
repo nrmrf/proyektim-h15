@@ -44,14 +44,14 @@ font-size:12px;
  .lesson-wrapper .lessons {
     display: flex;
     flex-wrap: wrap;
-font-size:12px;
+font-size:8px;
   }
 
 
   .lesson-content {
     flex: auto;
      width: 100%;
-font-size:12px;
+font-size:8px;
   }
  /* header {text-align:center;}*/
 
