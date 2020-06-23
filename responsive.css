@@ -22,12 +22,19 @@
 @media (max-width:670px) {
   /* Ubah width milik lesson ke 100% */
   .lesson{width:100%;}
+ .lesson-icon{
  
+  width:100%;
+  align-items: center;
+  position:relative;
+  display:block; 
+  padding-right:15px;
+  padding-left:15px;}
   header {clear:left;
   display:none;}  
 
-  .header-kiri ul li i {display:none;}
-
+  .header-kiri{display:none;}
+  .top-wrapper{display:inline-block;}
   /* Ubah text-align property milik <footer> */
   footer{text-align:center;}
    /* Tambahkan CSS untuk tag <h1> didalam top-wrapper */
