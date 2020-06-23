@@ -281,7 +281,6 @@ footer p {
    border-radius: 10px;
 
  }
-.top-wrapper i {display:inline-block;font-size:30px;}
  .container-title {
    width:80%;
    padding:0 15px;
@@ -294,34 +293,89 @@ footer p {
   letter-spacing: 5px;
   font-size:40px;
 }
-
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 30px;
+}
+.btn:hover {
+  opacity: 1;
+}
+.travel {
+  background-color: rgb(177, 52, 17);
+  margin-top:15px;
+}
+.container {
+  width:80%
+  padding:0 15px;
+  margin:0 auto;
+}
 .lesson-wrapper {
-  height: 500px;
-   padding-bottom: 80px;
+
    background-color: #f7f7f7;
    opacity: 1;
+   text-align:center;
+   display:flex;
+   flex-wrap:wrap;
 }
 
 .heading {
   padding-top:60px;padding-bottom:30px;color:#5f5d60}
 
 .heading h2{font-weight:normal}
-.lesson{float:left;width:25%}
 
-/* Tambahkan CSS untuk lesson-icon */
-.lesson-icon{
-  position:relative;
-  padding: 10px;
+.lesson-wrapper .lessons {
+	dispalay: flex;
+	flex-direction:row;
+	width: 100%;
+	margin: 0 auto;
 }
 
-/* Tambahkan CSS untuk tag <p> didalam lesson-icon */
-.lesson-icon p {
-  position:absolute;top:90px;width:100%;color:white;opacity: 0.6;
-  padding: 10px;
+.lesson-content img{
+    display: none;
+}
+
+.lesson-wrapper .lessons {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.lesson-group {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.lesson-group img {
+	flex: auto;
+	width:20%;
+	margin:0 10px 0 10px;
+}
+
+.lesson-content {
+
+  flex: auto;
+	width: 10%;
+	margin:0 10px ;
+
+
 
 }
 
-/* Tambahkan CSS untuk txt-contents */
-.txt-contents {
-  width:80%;display:inline-block;margin:0 auto;font-size:15px;color:#b3aeb5
+.lesson-one p{
+    text-align: center;
+    font-weight: bold;
+    border:1px solid rgb(189, 99, 71);
+    color: rgb(189, 99, 71);
+    margin-top: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+	  font-size: 30px;
+    transition: all 0.2s;
 }
+
+.lesson-one p:hover{
+		cursor:pointer;
+    background-color: rgb(189, 99, 71);
+    color: white;
