@@ -1,6 +1,9 @@
 /* Untuk Tablets */
 
 /* Tambahkan breakpoint max-width: 1000px */
+@media (min-width:1000px)
+{.menu-icon {display:none}
+
 @media (max-width:1000px) 
 
 {.lesson{width:50%;margin-bottom:50px;}
@@ -19,7 +22,7 @@
 @media (max-width:670px) {
   /* Ubah width milik lesson ke 100% */
   .lesson{width:100%}
-  
+   .header-kiri {width:75%;font-size:12px;}
   /* Ubah text-align property milik <footer> */
   footer{text-align:center;}
    /* Tambahkan CSS untuk tag <h1> didalam top-wrapper */
