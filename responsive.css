@@ -2,7 +2,7 @@
 
 /* Tambahkan breakpoint max-width: 1000px */
 @media (min-width:1000px)
-{.menu-icon {display:none}
+{.menu-icon {display:none}}
 
 @media (max-width:1000px) 
 
