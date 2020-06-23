@@ -3,6 +3,9 @@
 /* Tambahkan breakpoint max-width: 1000px */
 @media (min-width:1001px)
 {.menu-icon {display:none;}}
+ .lesson {width:100%;}
+  .lesson-icon img{width:100%;display:inline-block;}
+  .lesson-icon p{width:100%;display:inline-block;}
 
 @media (max-width:1000px) 
 
@@ -10,6 +13,9 @@
   /* Tambahkan CSS untuk lesson */
   .menu-icon {display:none;}
    /* Tambahkan CSS untuk tag <h1> didalam top-wrapper */
+ 
+  .lesson-icon img{width:100%;display:inline-block;}
+  .lesson-icon p{width:100%;display:inline-block;}
   .top-wrapper h1{font-size:32px;}
 
   /* Tambahkan CSS untuk tag <h2> didalam heading */
@@ -21,7 +27,7 @@
 /* Tambahkan breakpoint max-width: 670px */
 @media (max-width:670px) {
   /* Ubah width milik lesson ke 100% */
-  .header-kanan{display:none;}
+  .menu {display:none;}
  
   .lesson {width:100%;}
   .lesson-icon img{width:100%;display:inline-block;}
