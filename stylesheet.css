@@ -302,26 +302,17 @@ footer p {
    opacity: 1;
 }
 
-.heading {
-  padding-top:60px;padding-bottom:30px;color:#5f5d60}
+.heading {padding-top:60px;padding-bottom:30px;color:#5f5d60}
 
-.heading h2{font-weight:normal}
-.lesson{float:left;width:25%}
-
+.heading h2{font-weight:normal; margin:20px;}
+.lessons{float:center;width:100%;display:inline-block;opacity: 0.85;}
+.lesson {display: inline-block;}
 /* Tambahkan CSS untuk lesson-icon */
-.lesson-icon{
-  position:relative;
-  padding: 10px;
-}
+.lesson-icon{position:relative;display:inline-block; margin:20px;float:center;text-align: center}
 
 /* Tambahkan CSS untuk tag <p> didalam lesson-icon */
-.lesson-icon p {
-  position:absolute;top:90px;width:100%;color:white;opacity: 0.6;
-  padding: 10px;
-
-}
+.lesson-icon p {position:absolute;margin:20px;width:100%;color:black;text-align: center;background-color: white;}
 
 /* Tambahkan CSS untuk txt-contents */
-.txt-contents {
-  width:80%;display:inline-block;margin:0 auto;font-size:15px;color:#b3aeb5
-}
+.txt-contents {width:80%;display:inline-block;margin:0 auto;font-size:15px;color:#b3aeb5;text-align: center;}
+
