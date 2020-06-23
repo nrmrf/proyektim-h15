@@ -1,0 +1,251 @@
+*{
+  font-family:"slab serif";
+}
+
+body {
+  background-image: url("https://wisatabaru.com/wp-content/uploads/2018/03/pulau-belitung.jpg");
+   background-repeat: no-repeat;
+   background-size:cover;
+   background-opacity:0.6;
+   background-color:rgba(255,255,255,0.8);
+}
+header {
+	background-image:url("https://cdn.pixabay.com/photo/2012/08/27/14/19/evening-55067_1280.png");
+	background-size:cover;
+	background-opacity:0.6;
+	background-position:center;
+	}
+a {
+  text-decoration: none;
+}
+
+.clear:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+.header-kiri {
+	float:left;
+}
+
+.header-kiri ul {
+			list-style-type:none;
+			
+			margin-top:15px;
+
+	}
+
+.header-kiri ul li {
+			display: inline-block;
+
+}	
+
+.header-kiri ul li a {
+				text-decoration:none;
+				background-color:#800000;
+				color:white;
+				padding:5px 20px;
+				border:1px solid transparent;
+				border-radius:100px;
+}
+.header-kiri ul li p{ color:white;}
+
+.header-kiri ul li a:hover{
+	background-color:white;
+	color:black;
+}
+
+.header-kiri ul li a:active {
+		background-color:white;
+		color:black;
+		transition: background-color 0.9s linear 0s;
+}
+.menu {
+
+  margin-top: 5px;
+  text-align:right;
+}
+
+.menu ul {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.menu ul li {
+  float: left;
+  width: 50px;
+  height: 40px;
+  border-color: #e3e3e3;
+  background-color:#800000;
+  transition: background-color 0.2s linear 0s;
+}
+.menu ul li:first-child {border-radius: 25px 0 0 25px;}
+.menu ul li:last-child {border-radius: 0 25px 25px 0;}
+
+.menu ul li a {
+  display: table;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.menu a i {
+  display: table-cell;
+  vertical-align: middle;
+  color: #F5DEB3;
+  font-size: 10px;
+  transition: all 0.2s linear 0s;
+}
+
+.menu a i:before {
+  border: 20 px solid;
+  border-color:#FF8C00;
+  border-radius: 100px;
+  width: 30px;
+  display: inline-block;
+  height: 30px;
+  line-height: 37px;
+  transition: color 0.2s linear 0s, 
+  font-size 0.2s linear 0s, 
+  border-color 0.2s linear 0.2s, 
+  height 0.2s linear 0s, 
+  width 0.2s linear 0s, 
+  line-height 0.2s linear 0s;
+}
+
+.menu a .link-text {
+  position: absolute;
+  bottom: 13px;
+  right: 10px;
+  color: black;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: all 0.2s linear 0s;
+}
+
+.menu ul li:hover {
+  background-color: #B8860B;
+}
+
+.menu ul li:hover .link-text {
+  opacity: 0;
+}
+
+.menu ul li:hover i {
+  color: #ffa801;
+  font-size: 43px;
+}
+
+.menu ul li:hover i:before {
+  border-color: transparent;
+  border-radius: 500px;
+  width: 66px;
+  height: 66px;
+  line-height: 60px;
+  transition: color 0.2s linear 0s, 
+  font-size 0.2s linear 0s, 
+  border-color 0.2s linear 0s, 
+  height 0.2s linear 0s, 
+  width 0.2s linear 0s, 
+  line-height 0.2s linear 0s;
+}
+
+
+footer {margin:0 auto;
+		display: inline-block;}
+footer ul {
+  list-style-type: none;
+  display: inline-block;
+}
+
+footer ul li {
+  float: left;
+  width: 50px;
+  height: 40px;
+  border-color: #e3e3e3;
+  background-color:#800000;
+  transition: background-color 0.2s linear 0s;
+  display:inline-block;
+}
+footer ul li:first-child {border-radius: 25px 0 0 25px;}
+footer ul li:last-child {border-radius: 0 25px 25px 0;}
+
+footer ul li a {
+  display: table;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  text-align: center;
+}
+
+footer a i {
+  display: table-cell;
+  vertical-align: middle;
+  color: #F5DEB3;
+  font-size: 10px;
+  transition: all 0.2s linear 0s;
+}
+
+footer a i:before {
+  border: 20 px solid;
+  border-color:#FF8C00;
+  border-radius: 100px;
+  width: 30px;
+  display: inline-block;
+  height: 30px;
+  line-height: 37px;
+  transition: color 0.2s linear 0s, 
+  font-size 0.2s linear 0s, 
+  border-color 0.2s linear 0.2s, 
+  height 0.2s linear 0s, 
+  width 0.2s linear 0s, 
+  line-height 0.2s linear 0s;
+}
+
+footer a .link-text {
+  position: absolute;
+  bottom: 13px;
+  right: 10px;
+  color: black;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: all 0.2s linear 0s;
+}
+
+footer ul li:hover {
+  background-color: #B8860B;
+}
+
+footer ul li:hover .link-text {
+  opacity: 0;
+}
+
+footer ul li:hover i {
+  color: #ffa801;
+  font-size: 43px;
+}
+
+.footer ul li:hover i:before {
+  border-color: transparent;
+  border-radius: 500px;
+  width: 66px;
+  height: 66px;
+  line-height: 60px;
+  transition: color 0.2s linear 0s, 
+  font-size 0.2s linear 0s, 
+  border-color 0.2s linear 0s, 
+  height 0.2s linear 0s, 
+  width 0.2s linear 0s, 
+  line-height 0.2s linear 0s;
+}
+footer p {  display:inline-block;
+			text-align:center;
+			border:2px solid transparent;
+			border-radius:10px;
+			background-color:#FFFFF0;
+			background-color-opacity:0.05;
+            letter-spacing:5px;}
+.s1 {color:red;}
+.s2 {color:blue;}
+.s3 {color:#DAA520;}
