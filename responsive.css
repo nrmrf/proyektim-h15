@@ -21,12 +21,12 @@
 /* Tambahkan breakpoint max-width: 670px */
 @media (max-width:670px) {
   /* Ubah width milik lesson ke 100% */
-  .lesson{width:50%}
+  .lesson{width:100%}
  
   header {clear:left;
   display:none;}  
 
-
+  .header-kiri ul li i {display:none;}
 
   /* Ubah text-align property milik <footer> */
   footer{text-align:center;}
