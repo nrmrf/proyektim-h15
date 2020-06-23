@@ -22,7 +22,8 @@
 @media (max-width:670px) {
   /* Ubah width milik lesson ke 100% */
   .lesson{width:100%}
-   .header-kiri {width:100%;font-size:8px;padding:0 0;}
+   .header-kiri {width:50%;}
+  .header-kiri ul{font-size:8px;padding:0 0;color:black;}
   /* Ubah text-align property milik <footer> */
   footer{text-align:center;}
    /* Tambahkan CSS untuk tag <h1> didalam top-wrapper */
