@@ -22,9 +22,9 @@
 @media (max-width:670px) {
   /* Ubah width milik lesson ke 100% */
   .lesson{width:100%;}
-    
-  .header-kiri ul li a{font-size:12px;}
-  .header-kiri ul li p{font-size:12px;}
+  .header {width:50%}
+  .header-kiri ul li a{font-size:8px;}
+  .header-kiri ul li p{font-size:8px;}
  
   
   /* Ubah text-align property milik <footer> */
