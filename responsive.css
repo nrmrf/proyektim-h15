@@ -8,7 +8,7 @@
 
 {.lesson{width:50%;margin-bottom:50px;}
   /* Tambahkan CSS untuk lesson */
-.menu{display:none;}
+.menu-icon{display:none;}
    /* Tambahkan CSS untuk tag <h1> didalam top-wrapper */
   .top-wrapper h1{font-size:32px;}
 
@@ -21,7 +21,7 @@
 /* Tambahkan breakpoint max-width: 670px */
 @media (max-width:670px) {
   /* Ubah width milik lesson ke 100% */
-  .lesson{width:100%}
+  .lesson{width:50%}
   .menu{width:50%;display:none;}
 
 
