@@ -271,7 +271,8 @@ footer p {
 
 .top-wrapper {
 
-
+   display:inline-block;
+    color:white;
    text-align:center;
 
    border:2px solid transparent;
