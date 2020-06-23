@@ -35,21 +35,10 @@
 @media (max-width:670px) {
   /* Ubah width milik lesson ke 100% */
   .menu {display:none;}
- 
+ .menu-icon {display:block;}
   .lesson {width:100%;}
 
   
-  
- .lesson-wrapper .lessons {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-
-  .lesson-content {
-    flex: auto;
-     width: 100%;
-  }
  /* header {text-align:center;}*/
 
   /* Ubah text-align property milik <footer> */
@@ -62,5 +51,5 @@
   .lesson
   
   /* Tambahkan CSS untuk menu-icon */
-  .menu-icon {display:block;}
+  
 }
