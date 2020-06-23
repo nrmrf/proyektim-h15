@@ -36,10 +36,20 @@
   /* Ubah width milik lesson ke 100% */
   .menu {display:none;}
  
-  .lesson {width:auto;}
+  .lesson {width:100%;}
 
   
   
+ .lesson-wrapper .lessons {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+  .lesson-content {
+    flex: auto;
+     width: 100%;
+  }
  /* header {text-align:center;}*/
 
   /* Ubah text-align property milik <footer> */
@@ -49,7 +59,7 @@
   
   /* Tambahkan CSS untuk tag <p> didalam top-wrapper */
   .top-wrapper p{font-size:14px;line-height:20px;text-align:center;}
-  
+  .lesson
   
   /* Tambahkan CSS untuk menu-icon */
   .menu-icon {display:block;}
