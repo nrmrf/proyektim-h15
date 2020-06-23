@@ -319,9 +319,9 @@ footer p {  display:inline-block;
   padding-left:15px;}
 
 *{box-sizing:border-box;}
-.lesson-icon img {display:inline-block;width:25%;}
+.lesson-icon img {display:inline-block;width:100%;}
 /* Tambahkan CSS untuk tag <p> didalam lesson-icon */
-.lesson-icon p {position:absolute;margin: auto;width:25%;color:black;text-align: center;background-color: white;}
+.lesson-icon p {position:absolute;margin: auto;width:100%;color:black;text-align: center;background-color: white;}
 .clear {clear: left;}
 
 .menu-icon{color:white;float:right;display:none;}
