@@ -22,7 +22,10 @@
 @media (max-width:670px) {
   /* Ubah width milik lesson ke 100% */
   .lesson{width:50%}
-  .menu{width:50%;display:none;}
+ 
+  header {clear:left;
+  display:none;}  
+
 
 
   /* Ubah text-align property milik <footer> */
