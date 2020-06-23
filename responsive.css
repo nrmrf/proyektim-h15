@@ -21,19 +21,13 @@
 /* Tambahkan breakpoint max-width: 670px */
 @media (max-width:670px) {
   /* Ubah width milik lesson ke 100% */
-  .lesson{width:100%;}
-  .header {width:50%}
-  .header-kiri ul li a{font-size:8px;}
-  .header-kiri ul li p{font-size:8px;}
- 
+  .lesson{width:100%}
   
   /* Ubah text-align property milik <footer> */
   footer{text-align:center;}
    /* Tambahkan CSS untuk tag <h1> didalam top-wrapper */
-  .top-wrapper h1{font-size:20px;line-height:36px; color:black;}
-  .top-wrapper h2{font-size:18px;line-height:36px; color:black;}
+  .top-wrapper h1{font-size:24px;line-height:36px;}
   
- 
   /* Tambahkan CSS untuk tag <p> didalam top-wrapper */
   .top-wrapper p{font-size:14px;line-height:20px;}
    .header-kanan {display:none;}
